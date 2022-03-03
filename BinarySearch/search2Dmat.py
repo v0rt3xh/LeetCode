@@ -5,6 +5,7 @@ class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         '''
         An observation: the top right corner
+        View it as a binary search tree =D
         "left": small, "right": large
         '''
         m, n = len(matrix), len(matrix[0])
