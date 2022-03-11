@@ -34,7 +34,3 @@ class Solution:
             return node
         return construct(head, None)
 
-
-'''
-Improved method
-'''
