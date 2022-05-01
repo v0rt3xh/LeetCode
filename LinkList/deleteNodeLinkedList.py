@@ -1,0 +1,38 @@
+'''
+0237 Delete Node in a Linked List
+'''
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+'''
+My original solution :(
+'''
+class Solution:
+    def deleteNode(self, node):
+        """
+        :type node: ListNode
+        :rtype: void Do not return anything, modify node in-place instead.
+        """
+        cur = node
+        next_one = node.next
+        pre = None
+        while next_one is not None:
+            cur.val, next_one.val = next_one.val, cur.val
+            next_one = next_one.next
+            pre = cur
+            cur = cur.next
+        pre.next = None
+'''
+Improved version
+Get REKT ...
+'''
+class Solution:
+    def deleteNode(self, node):
+        """
+        :type node: ListNode
+        :rtype: void Do not return anything, modify node in-place instead.
+        """
+        node.val = node.next.val
+        node.next = node.next.next
