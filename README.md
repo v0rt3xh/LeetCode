@@ -6,7 +6,7 @@ Currently, there are not many solutions in this repo, as I previously worked on 
 **WARNING**: Some of my solutions are not that elegant. I apologize if you get triggered by them. :satisfied:
 
 ## Contents
-I follow the taxonomy of this [LeetBook](https://books.halfrost.com/leetcode). Will work on Union Find and Sliding Window. For the tables below, I will update them regularly to catch up my progress. **The tables are not completed.**
+I follow the taxonomy of this [LeetBook](https://books.halfrost.com/leetcode). Will work on Union Find and Sliding Window. For the tables below, I will update them regularly to catch up my progress. **The tables are incomplete.**
 
 ## Array
 | No. | Title | Solution | Comment |
@@ -20,6 +20,9 @@ I follow the taxonomy of this [LeetBook](https://books.halfrost.com/leetcode). W
 | 0026 |[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[Link](https://github.com/v0rt3xh/LeetCode/blob/main/Array/removeDup.py)| |
 | 0027 |[Remove Elements](https://leetcode.com/problems/remove-element)|[Link](https://github.com/v0rt3xh/LeetCode/blob/main/Pointers/removeElement.py)| |
 | 0031 |[Next Permutation](https://leetcode.com/problems/next-permutation)|[Link](https://github.com/v0rt3xh/LeetCode/blob/main/Array/nextPermu.py)| |
+
+
+
 
 ## String
 | No. | Title | Solution | Comment |
@@ -59,6 +62,7 @@ I follow the taxonomy of this [LeetBook](https://books.halfrost.com/leetcode). W
 | No. | Title | Solution | Comment |
 |---| ----- | ------ | ----- |
 | 0017 |[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[Link](https://github.com/v0rt3xh/LeetCode/blob/main/Backtracking/letterComb.py)| |
+| 0037 |[Sudoku Solver](https://leetcode.com/problems/sudoku-solver)|[Link](https://github.com/v0rt3xh/LeetCode/blob/main/Backtracking/sudoku.py)| |
 
 ## DFS
 | No. | Title | Solution | Comment |
@@ -75,6 +79,8 @@ I follow the taxonomy of this [LeetBook](https://books.halfrost.com/leetcode). W
 |---| ----- | ------ | ----- |
 | 0004 |[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|[Link](https://github.com/v0rt3xh/LeetCode/blob/main/BinarySearch/MedianArrays.py)| Worth reviewing|
 | 0033 |[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)|[Link](https://github.com/v0rt3xh/LeetCode/blob/main/BinarySearch/searchRotated.py)| |
+| 0034 |[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[Link](https://github.com/v0rt3xh/LeetCode/blob/main/BinarySearch/findFirstLast.py)| Worth reviewing|
+| 0035 |[Search Insert Position](https://leetcode.com/problems/search-insert-position)|[Link](https://github.com/v0rt3xh/LeetCode/blob/main/BinarySearch/searchInsert.py)| Worth reviewing|
 
 ## Math
 | No. | Title | Solution | Comment |
@@ -86,6 +92,7 @@ I follow the taxonomy of this [LeetBook](https://books.halfrost.com/leetcode). W
 |---| ----- | ------ | ----- |
 | 0003 |[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[Link](https://github.com/v0rt3xh/LeetCode/blob/main/String/LongSubStr.py)| |
 | 0012 |[Integer to Roman](https://leetcode.com/problems/integer-to-roman)|[Link](https://github.com/v0rt3xh/LeetCode/blob/main/HashTable/int2Roma.py)| |
+| 0036 |[Valid Sudoku](https://leetcode.com/problems/valid-sudoku)|[Link](https://github.com/v0rt3xh/LeetCode/blob/main/HashTable/validSudoku.py)| |
 
 ## Sorting
 | No. | Title | Solution | Comment |
