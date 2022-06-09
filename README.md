@@ -154,7 +154,8 @@ I follow the taxonomy of this [LeetBook](https://books.halfrost.com/leetcode). W
 ## Union Find
 | No. | Title | Solution | Comment |
 |---| ----- | ------ | ----- |
-
+| 0547 |[Number of Provinces](https://leetcode.com/problems/number-of-provinces/)|[Link](https://github.com/v0rt3xh/LeetCode/blob/main/UnionFind/numberOfProvinces.cpp)| |
+0547
 
 ## Sliding Window
 | No. | Title | Solution | Comment |
