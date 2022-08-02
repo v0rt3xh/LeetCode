@@ -1,0 +1,29 @@
+/**
+0303 Range Sum Query - Immutable
+Prefix Sum 
+P-SUM[i]: Sum up to nums[i]
+for (i, j):
+RangeSum(i, j) = P-SUM[j] - P-SUM[i - 1]
+*/
+
+class NumArray 
+{
+    vector<int> prefixSums;
+public:
+    
+    NumArray(vector<int>& nums) 
+    {
+        int length = nums.size();
+        prefixSums.resize(length + 1); 
+        // This resize trick simplifies our code. 
+        for (int i = 0; i < length; i++) 
+        {
+            prefixSums[i + 1] = nums[i] + prefixSums[i];
+        }
+    }
+    
+    int sumRange(int left, int right) 
+    {
+        return prefixSums[right + 1] - prefixSums[left];
+    }
+};
