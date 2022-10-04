@@ -5,6 +5,7 @@
  */
 class Solution {
 public:
+    // Useful variables
     static constexpr int dirs[4][2] = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
     int rows, columns; 
     
@@ -12,8 +13,10 @@ public:
     {
         rows = matrix.size();
         columns = matrix[0].size();
+        // Create a memo
         auto memo = vector<vector<int>> (rows, vector<int>(columns));
         int result = 0;
+        // Compute result through iterating different starting point
         for (int i = 0; i < rows; i++) 
         {
             for (int j = 0; j < columns; j++) 
@@ -28,14 +31,17 @@ public:
     {
         if (memo[row][column] != 0) 
         {
+            // If we have previous result, just return
             return memo[row][column];
         }
+        // Otherwise add value and init.
         ++memo[row][column];
         for (int i = 0; i < 4; i++) 
         {
             int newRow = row + dirs[i][0], newColumn = column + dirs[i][1];
             if (newRow > -1 && newRow < rows && newColumn > -1 && newColumn < columns && matrix[newRow][newColumn] > matrix[row][column]) 
             {
+                // Find the right direction and update.
                 memo[row][column] = max(memo[row][column], dfs(matrix, newRow, newColumn, memo) + 1);
             }
         }
